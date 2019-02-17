@@ -1,4 +1,7 @@
-const app = require('./app')
+import Tram from 'tram-one'
+import { getEngine } from './engine'
+import buildApp from './buildApp'
 
-app()
+const app = new Tram({ webEngine: getEngine() })
+buildApp(app)
   .start('#app')

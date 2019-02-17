@@ -1,4 +1,4 @@
-const Tram = require('tram-one')
+import Tram from 'tram-one'
 const html = Tram.html()
 
 const style = `
@@ -8,7 +8,7 @@ const style = `
   background: #fff0f0;
 `
 
-module.exports = () => {
+export default () => {
   return html`
     <noscript>
       <div style=${style}>

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page snapshot 1`] = `
+<div>
+  <h1
+    style="
+    color: #e6ef9f; background: black;
+    cursor: pointer; text-align: center;
+    padding: 1em; user-select: none;
+    margin: -8px -8px 8px -8px;
+  "
+  >
+    
+      tram-one-example
+    
+  </h1>
+  <noscript>
+    <div
+      style="
+  border: solid;
+  border-radius: 1em;
+  padding: 0 1em;
+  background: #fff0f0;
+"
+    >
+      
+        Oh No! It looks like JS has been disabled. Please enable it to use this applicaiton.
+      
+    </div>
+  </noscript>
+  <div>
+    
+        Thank you for using Tram-One!
+    <br />
+    
+        To get started, edit 
+    <code>
+      tram-one-example/pages/home.js
+    </code>
+    .
+      
+  </div>
+</div>
+`;

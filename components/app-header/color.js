@@ -1,6 +1,6 @@
 const colors = ['#e6ef9f', '#a09fef', '#9fefa1', '#ef9f9f']
 
-module.exports = {
+export default {
   init: () => colors[0],
   advance: (color) => {
     const nextColorIndex = colors.indexOf(color) + 1

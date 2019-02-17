@@ -1,7 +1,7 @@
-const Tram = require('tram-one')
+import Tram from 'tram-one'
 const html = Tram.html()
 
-module.exports = () => {
+export default () => {
   return html`
     <div>
       <h1>404</h1>

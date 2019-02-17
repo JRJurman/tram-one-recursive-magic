@@ -1,8 +1,13 @@
+require('@babel/register')({
+  presets: [ '@babel/preset-env' ]
+})
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const fs = require('fs')
 
 const package = require('../package')
-const buildApp = require('../app')
+
+const buildApp = require('../buildApp').default
 
 // html config for webpack
 module.exports = () => [
